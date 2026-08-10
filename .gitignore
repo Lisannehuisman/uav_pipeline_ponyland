@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ML caches
+*.cache
+
+# Large datasets
+data/
+datasets/
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+
+# Generated predictions
+pred_cache/
+
+# Editors / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+*.out
+*.err
