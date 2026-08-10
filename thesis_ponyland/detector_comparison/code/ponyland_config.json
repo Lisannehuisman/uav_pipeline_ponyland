@@ -1,0 +1,35 @@
+{
+  "regime_order": ["M1", "M2a", "M2b", "M3", "M4"],
+  "detector_order": ["YOLOv8n", "YOLOv8l", "Faster R-CNN"],
+  "default_output_dir": "/vol/tensusers6/lisannehuisman/projects/compare_yolov8l_frcnn/outputs/detector_family_comparison",
+  "regime_data_yamls": {
+    "M1": "/vol/tensusers6/lisannehuisman/yamls/M1_yolov8l.yaml",
+    "M2a": "/vol/tensusers6/lisannehuisman/yamls/M2a_yolov8l.yaml",
+    "M2b": "/vol/tensusers6/lisannehuisman/yamls/M2b_yolov8l.yaml",
+    "M3": "/vol/tensusers6/lisannehuisman/yamls/M3_yolov8l.yaml",
+    "M4": "/vol/tensusers6/lisannehuisman/yamls/M4_yolov8l.yaml"
+  },
+  "model_runs": {
+    "YOLOv8l": {
+      "M1": "/vol/tensusers6/lisannehuisman/projects/yolov8l/runs_yolov8l/S0_M1_yolov8l_run1",
+      "M2a": "/vol/tensusers6/lisannehuisman/projects/yolov8l/runs_yolov8l/S0_M2a_yolov8l_run1",
+      "M2b": "/vol/tensusers6/lisannehuisman/projects/yolov8l/runs_yolov8l/S0_M2b_yolov8l_run1",
+      "M3": "/vol/tensusers6/lisannehuisman/projects/yolov8l/runs_yolov8l/S0_M3_yolov8l_run1",
+      "M4": "/vol/tensusers6/lisannehuisman/projects/yolov8l/runs_yolov8l/S0_M4_yolov8l_run1"
+    },
+    "YOLOv8n": {
+      "M1": "/vol/tensusers6/lisannehuisman/projects/yolov8n/runs_yolov8n/S0_M1_yolov8n",
+      "M2a": "/vol/tensusers6/lisannehuisman/projects/yolov8n/runs_yolov8n/S0_M2a_yolov8n",
+      "M2b": "/vol/tensusers6/lisannehuisman/projects/yolov8n/runs_yolov8n/S0_M2b_yolov8n",
+      "M3": "/vol/tensusers6/lisannehuisman/projects/yolov8n/runs_yolov8n/S0_M3_yolov8n",
+      "M4": "/vol/tensusers6/lisannehuisman/projects/yolov8n/runs_yolov8n/S0_M4_yolov8n"
+    },
+    "Faster R-CNN": {
+      "M1": "/vol/tensusers6/lisannehuisman/runs/frcnn/S0_M1_run1",
+      "M2a": "/vol/tensusers6/lisannehuisman/runs/frcnn/S0_M2a_run1",
+      "M2b": "/vol/tensusers6/lisannehuisman/runs/frcnn/S0_M2b_run1",
+      "M3": "/vol/tensusers6/lisannehuisman/runs/frcnn/S0_M3_run1",
+      "M4": "/vol/tensusers6/lisannehuisman/runs/frcnn/S0_M4_run1"
+    }
+  }
+}
