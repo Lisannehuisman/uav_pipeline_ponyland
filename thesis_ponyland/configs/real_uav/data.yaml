@@ -1,0 +1,16 @@
+path: /vol/tensusers6/lisannehuisman/projects/real_uav_finetune/data/real_uav_10class
+train: train/images
+val: val/images
+test: test/images
+nc: 10
+names:
+- tent
+- tank
+- tower
+- container
+- whitevan
+- suv
+- male
+- rock
+- barrel
+- tree

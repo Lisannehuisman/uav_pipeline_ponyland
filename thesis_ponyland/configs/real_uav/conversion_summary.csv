@@ -1,0 +1,4 @@
+split,images,labels,instances,source_boxes,source_polygons,duplicates_removed,boxes_clipped_to_image,tent,tank,tower,container,whitevan,suv,male,rock,barrel,tree
+train,80,80,303,0,303,0,42,2,2,4,3,66,179,35,4,6,2
+val,37,37,145,0,146,1,13,1,0,5,11,28,81,14,2,0,3
+test,39,39,144,0,144,0,14,1,1,3,2,33,84,13,3,2,2
